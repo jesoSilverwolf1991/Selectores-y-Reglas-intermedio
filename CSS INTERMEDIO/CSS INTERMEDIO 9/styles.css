@@ -1,0 +1,58 @@
+
+.comment-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: lightblue;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 30px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para la lista de comentarios */
+.comment-list {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#comments {
+    list-style: none;
+    padding: 0;
+}
+
+#comments li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+body{
+    background-image: url(fondo.png);
+}

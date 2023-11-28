@@ -1,0 +1,55 @@
+/* Estilos para la galería de imágenes */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+    margin: 10px;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+    text-align: center;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+body{
+    background-color: #b32428;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: #fff;
+}

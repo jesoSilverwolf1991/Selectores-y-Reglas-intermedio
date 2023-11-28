@@ -1,0 +1,54 @@
+
+.product-card {
+    width: 300px; 
+    border: 1px solid white; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    
+  }
+  
+  .product-card img {
+    max-width: 100%; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+  }
+  
+  .product-title {
+    font-size: 24px; 
+    margin: 10px 0; 
+  }
+  
+  .product-description {
+    font-size: 16px; 
+    color: #fff; 
+  }
+  
+  .product-price {
+    font-size: 24px; 
+    color: greenyellow; 
+    margin: 10px 0; 
+  }
+
+  H2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+  }
+
+  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  body{
+    background-color: black;
+  }
+
+  h1{
+    color:#fff
+  }
+
+  
+
+  
+ 
